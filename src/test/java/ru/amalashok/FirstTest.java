@@ -15,5 +15,10 @@ public class FirstTest {
         Assertions.assertTrue(3 > 2);
     }
 
+    @Test
+    void Test3 () {
+        Assertions.assertTrue(10 > 5);
+    }
+
 
 }
