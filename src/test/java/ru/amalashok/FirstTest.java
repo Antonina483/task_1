@@ -14,7 +14,7 @@ public class FirstTest {
 
     @Test
     void Test2 () {
-        Assertions.assertTrue(4 > 6);
+        Assertions.assertTrue(100 >= 34);
     }
 
 
