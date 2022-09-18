@@ -9,7 +9,7 @@ public class FirstTest {
 
     @Test
     void Test1 () {
-        Assertions.assertFalse(40 > 200);
+        Assertions.assertFalse(1 < 5);
     }
 
     @Test
