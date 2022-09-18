@@ -9,4 +9,16 @@ public class FirstTest {
     void Test1 () {
         Assertions.assertFalse(2 < 1);
     }
+
+    @Test
+    void Test2 () {
+        Assertions.assertTrue(3 > 2);
+    }
+
+    @Test
+    void Test3 () {
+        Assertions.assertTrue(10 > 5);
+    }
+
+
 }
