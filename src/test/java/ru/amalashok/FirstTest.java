@@ -9,12 +9,12 @@ public class FirstTest {
 
     @Test
     void Test1 () {
-        Assertions.assertFalse(new Random().nextInt() < 10);
+        Assertions.assertFalse(40 < 200);
     }
 
     @Test
     void Test2 () {
-        Assertions.assertTrue(new Random ().nextInt() > 10);
+        Assertions.assertTrue(100 > 34);
     }
 
 
