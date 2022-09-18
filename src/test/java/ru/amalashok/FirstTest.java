@@ -9,12 +9,12 @@ public class FirstTest {
 
     @Test
     void Test1 () {
-        Assertions.assertFalse(1 < 5);
+        Assertions.assertFalse(1000 < 500);
     }
 
     @Test
     void Test2 () {
-        Assertions.assertTrue(100 >= 34);
+        Assertions.assertTrue(1000 >= 3);
     }
 
 
